@@ -1,4 +1,8 @@
 module Utils
+  def self.array_to_string(string)
+    string.join
+  end
+
   def self.string_to_array(string)
     string.split("")
   end
