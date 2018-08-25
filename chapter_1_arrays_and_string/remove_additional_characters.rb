@@ -20,6 +20,6 @@ class Characters
   private 
 
     def string_to_array
-      @string_to_array ||= Utils.string_to_array(string)
+      Utils.string_to_array(string)
     end
 end

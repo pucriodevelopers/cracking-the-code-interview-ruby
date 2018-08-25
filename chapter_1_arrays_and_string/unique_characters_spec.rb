@@ -7,7 +7,7 @@ RSpec.describe UniqueCharacters do
     let(:string) { 'asd' }
 
     it 'should return true' do
-      expect(subject.has_unique_chars?).to be true
+      expect(subject.has_unique_chars?).to be_truthy
     end
   end
 
@@ -15,7 +15,7 @@ RSpec.describe UniqueCharacters do
     let(:string) { 'asda' }
 
     it 'should return false' do
-      expect(subject.has_unique_chars?).to be false
+      expect(subject.has_unique_chars?).to be_falsey
     end
   end
 end
